@@ -1,2 +1,4 @@
 # Perceptos
-ML module
+Perceptos is AI based Trading Insights Platform. Perceptos will aid traders to make informed and rational decision during crucial trading periods. This is a kind of Algorithmic Trading (AT), except the tool will make only recommend entry and exit, not place orders. i.e. Perceptos is not a bot, it will not automatically trigger trading. It is more a companion for trader during trading. 
+ Algorithmic Trading are either rule based or AI based. If it is for Retail traders who want to take advantage of AT, they are limited to only Rule Based (mostly).  AI based AT requires huge capital which puts constrain on Retail Investors from using it, leaving only Institutional Investors having access to AI. This Product will make it’s best effort in bringing AI based Insights Platform closer to Retail Traders and helping them to maximize the profit margin and minimize the risk factor. 
+
