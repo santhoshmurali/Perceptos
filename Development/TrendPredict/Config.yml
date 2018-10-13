@@ -1,0 +1,53 @@
+#https://martin-thoma.com/configuration-files-in-python/
+CHRIS_Data:
+    URL_Documentation:'https://www.quandl.com/data/CHRIS-Wiki-Continuous-Futures/documentation/introduction'
+    CHRIS_Code_Mapping:'https://s3.amazonaws.com/quandl-production-static/Ticker+CSV%27s/Futures/continuous.csv'
+
+Continous_Futures_MCX_1:
+    Active:
+        Nickel: CHRIS/MCX_NI1
+        Nickel_Mini: CHRIS/MCX_NIM1
+        Alumini: CHRIS/MCX_AL1
+        Alumini_Mini: CHRIS/MCX_ALM1
+        Copper: CHRIS/MCX_CU1
+        Copper_Mini: CHRIS/MCX_CUM1
+        Lead: CHRIS/MCX_PB1
+        Lead_Mini: CHRIS/MCX_PBM1
+        Zinc: CHRIS/MCX_ZN1
+        Zinc_Mini: CHRIS/MCX_ZNM1
+    InActive:
+        Gold: CHRIS/MCX_GC1
+        Gold_Mini: CHRIS/MCX_GM1
+        Gold_Guinea: CHRIS/MCX_GG1
+        Gold_Petal: CHRIS/MCX_GP1
+        Natural_Gas: CHRIS/MCX_NG1
+        Silver: CHRIS/MCX_AG1
+        Silver_Micro: CHRIS/MCX_AGM1
+Continous_Futures_MCX_2:
+    Active:
+        Nickel: CHRIS/MCX_NI2
+        Nickel_Mini: CHRIS/MCX_NIM2
+        Alumini: CHRIS/MCX_AL2
+        Alumini_Mini: CHRIS/MCX_ALM2
+        Copper: CHRIS/MCX_CU2
+        Copper_Mini: CHRIS/MCX_CUM2
+        Lead: CHRIS/MCX_PB2
+        Lead_Mini: CHRIS/MCX_PBM2
+        Zinc: CHRIS/MCX_ZN2
+        Zinc_Mini: CHRIS/MCX_ZNM2
+    InActive:
+        Gold: CHRIS/MCX_GC2
+        Gold_Mini: CHRIS/MCX_GM2
+        Gold_Guinea: CHRIS/MCX_GG2
+        Gold_Petal: CHRIS/MCX_GP2
+        Natural_Gas: CHRIS/MCX_NG2
+        Silver: CHRIS/MCX_AG2
+        Silver_Micro: CHRIS/MCX_AGM2
+Quandl:
+    api_key: rMrxniUJH1-pmm4edrqA
+    freq: 
+        - Daily
+        - Weekly
+        - Monthly
+    
+    
