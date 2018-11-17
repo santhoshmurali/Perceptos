@@ -8,10 +8,13 @@ import quandl
 import numpy as np
 import pandas as pd
 import yaml
+import sys,os
 
 #Setting up the Configuration Variables
 # Reading the formula
-with open(r'C:\Home\Work\Ordinarily\ML_Trading\Config.yml','r') as configFile:
+#Code to get the relative file path
+paths = os.path.dirname(__file__)
+with open(paths+'\Config.yml','r') as configFile:
     cfg = yaml.load(configFile)
 
 quandl.ApiConfig.api_key = cfg['Quandl']['api_key']
@@ -37,3 +40,4 @@ for k in next_month_contracts:
 
 
 DailyData_Current = pd.concat(DailyDataList)
+DailyData_Current.to_csv(path_or_buf="ComodityData.csv",sep=",")
